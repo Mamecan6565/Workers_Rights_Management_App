@@ -1,4 +1,3 @@
-package day44_Workers_Rights_Management_App;
 
 public class Stuffs extends Administrator implements commonMethods {	
 
@@ -24,14 +23,16 @@ public class Stuffs extends Administrator implements commonMethods {
 
 	@Override
 	public void vocation(int workDays, int cooficient) {
-		// TODO Auto-generated method stub
-		
+
+		double stuffVocation = workDays*getPayperhour();
+
 	}
 
 	@Override
 	public void bonus(int halfSalary) {
-		// TODO Auto-generated method stub
-		
+
+		double stuffBonus = halfSalary*getPayperhour();
+
 	}
 
 	

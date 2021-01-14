@@ -1,20 +1,16 @@
-package day44_Workers_Rights_Management_App;
 
-public class Managers extends Administrator implements commonMethods{
+public class Managers extends Administrator implements commonMethods {
 
 	protected Managers(String name, int iDNumber, Boolean isWorking, String jobTitle, String jobPosition) {
 		super(name, iDNumber, isWorking, jobTitle, jobPosition);
-		// TODO Auto-generated constructor stub
 	}
-	
-		
+
+
 	public void secretMethod() {
 		
 		System.out.println("Bu metoda sadece managers mi ulasabilir?");
 	}
 	
-	
-
 	@Override
 	public void payments(int workedHours) {
 	
@@ -39,9 +35,6 @@ public class Managers extends Administrator implements commonMethods{
 		
 		System.out.println("Bonus payment;" + bonusPay);
 	}
-	
-	
-		
 
 	@Override
 	public String toString() {

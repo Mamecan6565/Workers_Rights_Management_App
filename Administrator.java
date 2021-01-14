@@ -1,9 +1,8 @@
-package day44_Workers_Rights_Management_App;
 
-public class Administrator {            
+public class Administrator {
 		
 	private static final int instNumber = 001; // ?
-	private static final String institution = "Retired Teacher CO"; //?
+	private static final String institution = "Marcus JSC"; //?
 	
 	private String Name = "name-surname";
 	private int IDNumber = 0;
@@ -32,7 +31,6 @@ public class Administrator {
 		System.out.println("|Job Title: " + jobTitle +" |");
 		System.out.println("|___________________________|");
 	}
-
 
 	public static int getInstnumber() {
 		return instNumber;
@@ -74,7 +72,6 @@ public class Administrator {
 	}
 
 
-	
 }
 
 
