@@ -1,6 +1,3 @@
-package day44_Workers_Rights_Management_App;
-
-
 public class WRMTest {
 
 	public static void main(String[] args) {

@@ -1,4 +1,3 @@
-package day44_Workers_Rights_Management_App;
 public class Teachers extends Administrator implements commonMethods {
 
 	
@@ -10,7 +9,7 @@ protected Teachers(String name, int iDNumber, Boolean isWorking, String jobTitle
 	@Override
 	public void payments(int workedHours) {
 		
-	double teacherSalary = workedHours*getPayperhour();
+	double teacherSalary = workedHours*getPayPerHour();
 	
 	System.out.println("Teacher salary; " + teacherSalary);
 		

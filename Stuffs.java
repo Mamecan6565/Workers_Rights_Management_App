@@ -1,6 +1,4 @@
-package day44_Workers_Rights_Management_App;
-
-public class Stuffs extends Administrator implements commonMethods {	
+public class Stuffs extends Administrator implements commonMethods {
 
 
     protected Stuffs(String name, int iDNumber, Boolean isWorking, String jobTitle, String jobPosition) {
@@ -16,7 +14,7 @@ public class Stuffs extends Administrator implements commonMethods {
 	@Override
 	public void payments(int workedHours) {
 		
-	double stuffSalary = workedHours*getPayperhour();
+	double stuffSalary = workedHours*getPayPerHour();
 	
 	System.out.println("Stuff salary; " + stuffSalary);
 		

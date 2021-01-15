@@ -1,6 +1,4 @@
-package day44_Workers_Rights_Management_App;
-
-public interface commonMethods  {  	
+public interface commonMethods  {
 
 
 	int coofficient = 1234;	 // instance variable

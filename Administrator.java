@@ -1,6 +1,4 @@
-package day44_Workers_Rights_Management_App;
-
-public class Administrator {            
+public class Administrator {
 		
 	private static final int instNumber = 001; // ?
 	private static final String institution = "Retired Teacher CO"; //?
@@ -69,7 +67,7 @@ public class Administrator {
 	}
 
 
-	public static int getPayperhour() {
+	public static int getPayPerHour() {
 		return payPerHour;
 	}
 
