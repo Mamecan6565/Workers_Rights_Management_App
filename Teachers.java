@@ -1,3 +1,4 @@
+
 public class Teachers extends Administrator implements commonMethods {
 
 	
@@ -9,7 +10,7 @@ protected Teachers(String name, int iDNumber, Boolean isWorking, String jobTitle
 	@Override
 	public void payments(int workedHours) {
 		
-	double teacherSalary = workedHours*getPayPerHour();
+	double teacherSalary = workedHours*getPayperhour();
 	
 	System.out.println("Teacher salary; " + teacherSalary);
 		
@@ -17,8 +18,10 @@ protected Teachers(String name, int iDNumber, Boolean isWorking, String jobTitle
 	
 	@Override
 	public void vocation(int workDays, int cooficient) {
-		// TODO Auto-generated method stub
-		
+
+		double teacherSalary = workDays*2*getPayperhour();
+
+
 	}
 
 	@Override
