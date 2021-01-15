@@ -10,7 +10,7 @@ protected Teachers(String name, int iDNumber, Boolean isWorking, String jobTitle
 	@Override
 	public void payments(int workedHours) {
 		
-	double teacherSalary = workedHours*getPayperhour();
+	double teacherSalary = workedHours*getPayPerHour();
 	
 	System.out.println("Teacher salary; " + teacherSalary);
 		
@@ -19,7 +19,7 @@ protected Teachers(String name, int iDNumber, Boolean isWorking, String jobTitle
 	@Override
 	public void vocation(int workDays, int cooficient) {
 
-		double teacherSalary = workDays*2*getPayperhour();
+		double teacherSalary = workDays*2*getPayPerHour();
 
 
 	}
